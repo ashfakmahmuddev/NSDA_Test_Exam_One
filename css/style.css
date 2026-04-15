@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  /* line-height: 0.8; */
+}
+
+/* Navber Part Start */
+
+.navbar-brand img{
+    width: 250px;
+}
+
+.nav-item{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+.nav-item .nav-link{
+    transition: all linear .3s;
+}
+.nav-item .nav-link:hover{
+    color: red!important;
+}
+
+.nav-right a{
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    transition: all linear .3s;
+}
+.nav-right a:hover{
+    color: red;
+}
+
+
+/* Navber Part End */
+
+/* Banner Part End */
+
+#banner{
+    padding: 60px 0;
+}
+.banner{
+    display: flex;
+}
+.banner_content{
+    width: 50%;
+}
+.banner_content h5{
+    color: black;
+    font-size: 20px;
+}
+.banner_content h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 550px;
+    line-height: 60px;
+    padding: 40px 0;
+}
+.banner_content h1 span{
+    color: red;
+}
+.banner_content p{
+    font-size: 16px;
+}
+
+/* Banner Part End */
