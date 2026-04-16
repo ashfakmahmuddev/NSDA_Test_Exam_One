@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+ol,li{
+    list-style-type: none;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* Navbar Part Start */
+.navbar{
+    padding: 20px 0;
+    box-shadow: 0 0 0 0.1px rgba(0,0,0,3);
+}
+.headerRight a{
+    color: black;
+    font-size: 25px;
+    padding: 0 10px;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-item a{
+    color: black;
+    font-size: 18px;
+    transition: all linear .3s;
+}
+.nav-item a:hover{
+    color: red;
+}
+/* Navbar Part End */
+
+
+/* Banner Part Start */
+#banner{
+    padding: 120px 0;
+    background-color: #ffe5e0d2;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerContent{
+    width: 50%;
+}
+.bannerContent h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bannerContent h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 30px 0;
+    line-height: 50px;
+    width: 450px;
+}
+.bannerContent p{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    /* padding: 30px 0; */
+    line-height: 30px;
+    width: 460px;
+    padding-bottom: 20px;
+}
+.bannerBtn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bannerBtn button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 18px 26px;
+}
+.bannerVideo img{
+    border-radius: 10px;
+}
+/* Banner Part End */
+
+/* Courses Part Start */
+#course{
+    padding: 60px 0;
+}
+.courseHead{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.courseHead h3{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.courseHead p{
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+.courseOne{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.courseOne img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.courseOneContent{
+    padding: 20px 10px;
+}
+.courseOneContent h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Courses Part End */
